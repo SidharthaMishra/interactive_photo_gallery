@@ -1,3 +1,4 @@
+@import '../node_modules/baguettebox.js/dist/baguetteBox.min.css';
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -348,6 +349,16 @@ template {
 
 body {
   width: 100%;
+  background-color: #e6e6e6;
+}
+
+main {
+  background-color: #fff;
+  padding: 1.5rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */
