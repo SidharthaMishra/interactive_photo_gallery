@@ -1,3 +1,6 @@
 const baguetteBox = require('baguettebox.js');
 
-baguetteBox.run('.gallery');
+baguetteBox.run('.gallery', {
+    buttons: true,
+    animation: 'slideIn'
+});
