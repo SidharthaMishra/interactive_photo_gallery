@@ -10,31 +10,39 @@
     height: 100vh;
     width: 100%;
     display: grid;
-    grid-template-rows: 100px 1fr 100px;
-    grid-template-areas: "header" "main" "footer";
-    max-width: 1028px;
-    margin: auto;
-    align-items: center;
+    grid-template-rows: minmax(20px, 50px) 1fr minmax(20px, 50px);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "h h h h h h" "m m m m m m" "f f f f f f";
 }
 
 header {
-    grid-area: header;
+    grid-area: h;
 }
 
 main {
-    grid-area: main;
+    grid-area: m;
+    width: 100%;
+    max-width: 1028px;
+    justify-self: center;
+    align-self: center;
 }
 
 footer {
-    grid-area: footer;
+    grid-area: f;
 }
 
 
 /* Image Gallery */
 
+.gallery-container {
+    width: 100%;
+    height: 100%;
+    max-width: 1028px;
+}
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
     grid-gap: 20px;
     margin: 20px auto;
     justify-content: center;
