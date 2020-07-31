@@ -5,3 +5,21 @@
 
 
 /* ============================================= */
+
+.search {
+    width: 100%;
+    margin: 0 auto 25px 0;
+    text-align: center;
+}
+
+.search__search-box {
+    height: 40px;
+    width: 50%;
+    border: 2px solid $searchbox-border-color;
+    outline-color: $searchbox-border-focus-color;
+    border-radius: 4px;
+    font-family: $font-family-stack;
+    font-size: $reg-font-size;
+    font-weight: $font-weight-mid;
+    padding: 5px;
+}
