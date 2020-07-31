@@ -30,35 +30,3 @@ main {
 footer {
     grid-area: f;
 }
-
-
-/* ============================================= */
-
-
-/*             Grid Setup                      */
-
-
-/* ============================================= */
-
-.gallery-container {
-    width: 100%;
-    height: 100%;
-    max-width: 1028px;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
-    grid-gap: 20px;
-    margin: 20px auto;
-    justify-content: center;
-    &-img {
-        text-align: center;
-        max-width: 200px;
-        max-height: 200px;
-    }
-    &-thumbnail {
-        width: 100%;
-        height: 100%;
-    }
-}
