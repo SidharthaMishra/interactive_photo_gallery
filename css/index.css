@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -407,5 +408,22 @@ footer {
 /* ============================================= */
 /*              Main Search Box                  */
 /* ============================================= */
+.search {
+  width: 100%;
+  margin: 0 auto 25px 0;
+  text-align: center;
+}
+
+.search__search-box {
+  height: 40px;
+  width: 50%;
+  border: 2px solid #d8d8d8;
+  outline-color: #989898;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px;
+}
 
 /*# sourceMappingURL=index.css.map */
