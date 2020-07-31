@@ -380,7 +380,7 @@ header {
 main {
   grid-area: m;
   width: 100%;
-  max-width: 1028px;
+  max-width: 980px;
   justify-self: center;
   align-self: center;
 }
@@ -393,20 +393,25 @@ footer {
 /*             Photo Gallery                      */
 /* ============================================= */
 .gallery-container {
-  width: 100%;
+  width: 80%;
   height: 100%;
-  max-width: 1028px;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+  grid-template-columns: repeat(auto-fit, minmax(110px, auto));
   grid-gap: 20px;
-  margin: 20px auto;
+  margin: 20px auto 0 auto;
   justify-content: center;
+  max-width: 600px;
 }
 .gallery-img {
-  text-align: center;
+  justify-self: center;
+  min-width: 110px;
+  min-height: 110px;
   max-width: 200px;
   max-height: 200px;
 }
