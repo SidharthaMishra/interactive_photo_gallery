@@ -14,7 +14,7 @@
 
 .search__search-box {
     height: 40px;
-    width: 50%;
+    width: 80%;
     border: 2px solid $searchbox-border-color;
     outline-color: $searchbox-border-focus-color;
     border-radius: 4px;
@@ -22,4 +22,7 @@
     font-size: $reg-font-size;
     font-weight: $font-weight-mid;
     padding: 5px;
+    @media(min-width: 768px) {
+        width: 50%;
+    }
 }
