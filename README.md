@@ -60,6 +60,7 @@ Upon completion, the project looks as follows:
 ## Project Structure
 ```
 interactive_photo_gallery
+    |
     |- css [output css folder for sass]
     |   |- baugetteBox.css
     |   |- index.css
@@ -117,6 +118,8 @@ interactive_photo_gallery
 - Markdown (Documentation)
 - VS Code
 - Tested on: Chrome, Firefox, Safari, Opera
+- W3C HTML and CSS Validator
+- JSHint
 
 <br>
 
